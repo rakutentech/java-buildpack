@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+print `bash -c 'echo -e "\e[1;95m***\n    WARNING: This buildpack is deprecated. Please use the following link instead:\n    \n    https://github.com/cloudfoundry/java-buildpack\n    \n    See also: https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=1802619039\n    \n    RPaaS Team\n***\e[0m"'`
 # frozen_string_literal: true
 
 # Cloud Foundry Java Buildpack
